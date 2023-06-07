@@ -1,0 +1,74 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Section styles */
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+
+.button-wrap {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+button {
+    display: inline-block;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.text {
+    max-width: 75%;
+}
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.task {
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Heading styles */
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Centering the sections */
+section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
